@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "mobile-kk",
+    "name": "Mobile KK",
     "slug": "mobile-kk",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#1897F2"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -20,11 +20,17 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#1897F2"
+      },
+      "package": "com.kknugm.mobilekk"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7ccd3689-a101-433a-aca6-95a2022b714a"
+      }
     }
   }
 }
